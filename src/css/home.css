@@ -1,0 +1,19 @@
+/* .home{
+    
+} */
+.home::-webkit-scrollbar{
+    display: none;
+}
+.home_header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    border: 1px solid #D7D6D0;
+    /* padding: 15px 20px; */
+}
+
+.home_header>h2{
+font-size: 20px;
+font-weight: 800;
+}

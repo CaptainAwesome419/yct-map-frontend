@@ -1,0 +1,19 @@
+/* .mainContent{
+   
+    padding-left: 40px;
+} */
+
+.mainContent{
+    flex:0.4;
+    min-width: fit-content;
+    overflow-y: scroll;
+    border-right: 1px solid #334444;
+}
+
+.main_content_header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    border: 1px solid #D7D6D0;
+}

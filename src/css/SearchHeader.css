@@ -1,0 +1,11 @@
+.searchHeader{
+    display: flex;
+    padding-top: 14px;
+    align-content: center;
+    margin-left: 40px;
+    /* align-items: center; */
+}
+
+.searchBox{
+   
+}
