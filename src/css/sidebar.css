@@ -7,34 +7,6 @@
   padding-right: 20px;
 }
 
-.sideBarOption {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  padding: 15px;
-  /* margin-top: 15px; */
-  /* padding-left: 30px; */
-  /* padding-right: 5px;
-  padding-top: 14px;
-  padding-bottom: 14px; */
-}
-
-.sideBarOption > h3 {
-  font-weight: 700;
-  font-size: 20px;
-  margin-left: 15px;
-}
-
-.sideBarOption:hover {
-  background-color: var(--yct-yellow-color);
-  border-radius: 30px;
-  color: var(--yct-green-color);
-  transition: color 0.1s ease-out;
-}
-
-.sideBarOption--active { 
-  color: var(--yct-green-color);
-}
 
 .yct-logo {
   color: #039f4e;

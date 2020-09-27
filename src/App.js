@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
          <SideBar/>
-         <MainContent headerName={"Home"} CustomComponent={Home}/>
+         <MainContent  headerName={"Home"} CustomComponent={Home}/>
          <Misc />
     </div>
   );

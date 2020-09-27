@@ -3,10 +3,7 @@ import '../css/MainContent.css';
 
 function MainContent({ headerName, CustomComponent }) {
     return (
-        <div className="mainContent">
-            <div className="main_content_header">
-                {headerName}
-            </div>
+        <div className="mainContent">            
             <CustomComponent  />
         </div>
     )

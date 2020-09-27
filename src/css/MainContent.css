@@ -4,10 +4,14 @@
 } */
 
 .mainContent{
-    flex:0.4;
+    flex:0.6;
     min-width: fit-content;
     overflow-y: scroll;
-    border-right: 1px solid #334444;
+    border-right: 1px solid #D7D6D0;
+}
+
+.mainContent::-webkit-scrollbar{
+    display: none;
 }
 
 .main_content_header{
